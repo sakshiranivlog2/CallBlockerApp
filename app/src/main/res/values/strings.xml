@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CallBlocker</string>
+
+    <!-- BlacklistActivity -->
+    <string name="blacklist_block_hidden_numbers">Block hidden numbers</string>
+    <string name="blacklist_show_notifications">Show notifications</string>
+    <string name="blacklist_about">About CallBlocker</string>
+    <string name="blacklist_permissions_required">CallBlocker doesn\'t have the permissions to work.</string>
+    <string name="blacklist_request_permissions">Request permissions</string>
+    <plurals name="blacklist_call_details">
+        <item quantity="one">Called at %2$s</item>
+        <item quantity="other">%1$d calls, last: %2$s</item>
+    </plurals>
+    <string name="block_out_of_list" translatable="false">Block numbers out of list</string>
+    <string name="dark_mode" translatable="false">Dark mode</string>
+    <string name="blacklist_import" translatable="false">Import Blacklist</string>
+    <string name="blacklist_export" translatable="false">Export Blacklist</string>
+    <string name="blacklist_exported_to" translatable="false">Exported to</string>
+
+    <string name="allow" translatable="false">Allow</string>
+    <string name="block" translatable="false">Block</string>
+
+    <string name="edit_mode" translatable="false">Edit view mode</string>
+
+    <!-- EditActivity -->
+    <string name="edit_add_number">Add number</string>
+    <string name="edit_edit_number">Edit number</string>
+    <string name="edit_save">Save</string>
+    <string name="edit_cancel">Cancel</string>
+    <string name="edit_delete">Delete</string>
+    <string name="edit_name">Name</string>
+    <string name="edit_name_hint">Annoying Spammer</string>
+    <string name="edit_number">Number</string>
+    <string name="edit_number_hint">+1-555-12345</string>
+    <string name="edit_number_hints">Enter the number in appropriate format (as Android would show in your dialer e.g. +COUNTRY-NUMBER). Use \"#\" for exactly one digit and \"*\" as a wildcard for zero or more digits (not longer than the correct phone number).</string>
+    <string name="edit_must_not_be_empty">Must not be empty</string>
+    <string name="edit_changes_saved">Changes saved</string>
+    <string name="allow_call" translatable="false">Allow call</string>
+
+    <!-- CallReceiver -->
+    <string name="receiver_notify_call_rejected">Call rejected</string>
+    <string name="receiver_notify_private_number">Private number</string>
+    <string name="receiver_notify_unknown_caller" translatable="false">Unknown caller</string>
+    <string name="call_blocking_unsupported" translatable="false">Can\'t block calls in this Android version</string>
+
+</resources>
